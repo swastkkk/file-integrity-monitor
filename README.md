@@ -32,7 +32,6 @@ The system uses **SHA-256 hashing** to create a unique cryptographic fingerprint
 
 If the file remains unchanged:
 
-```text
 Original Hash = Current Hash
         ↓
    File is Safe
@@ -45,7 +44,7 @@ Original Hash ≠ Current Hash
         ↓
    Security Alert
 
-⚙️ Technologies Used
+## ⚙️ Technologies Used
 Python
 SHA-256
 hashlib
@@ -55,7 +54,7 @@ GitHub
 
 No external Python libraries are required.
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 File-Integrity-Monitor/
 │
 ├── integrity_checker.py
@@ -68,7 +67,8 @@ File-Integrity-Monitor/
 │   └── modification-detected.png
 │
 └── README.md
-🔄 How It Works
+
+## 🔄 How It Works
               Monitored File
                     ↓
               SHA-256 Hash
@@ -85,7 +85,7 @@ File-Integrity-Monitor/
               ↓            ↓
             SAFE       🚨 ALERT
 
-🚀 How to Run
+## 🚀 How to Run
 1. Clone the repository
 git clone <your-repository-url>
 2. Open the project folder
@@ -109,7 +109,7 @@ After changing the contents of the monitored file:
 
 The alert occurs because the SHA-256 hash of the modified file differs from the stored baseline hash.
 
-📊 Results
+## 📊 Results
 
 The system successfully demonstrates basic file integrity monitoring by detecting changes made to a monitored file.
 
@@ -128,7 +128,7 @@ Basic security monitoring
 Python programming
 Project documentation using GitHub
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 Possible future enhancements include:
 
@@ -140,6 +140,6 @@ Monitoring entire directories
 Maintaining an activity log
 Integration with security monitoring systems
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Swastik Gupta
